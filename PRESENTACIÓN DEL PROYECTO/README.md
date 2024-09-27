@@ -51,3 +51,21 @@ La arquitectura será cliente-servidor, de manera que el cliente es el que solic
 - [Hanif Jetha & Mark Drake, Julio 16 de 2020, *Cómo instalar y utilizar Postfix en Ubuntu 20.04*, DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04-es)
 - [Xema Aceituno, *Manual de comandos para MySQL*](https://www.cartagena99.com/recursos/alumnos/apuntes/210927124637-Manual%20MySQL.pdf)
 - [Jab & Ester Torres, 2015 - 2019, *HTML5 y CSS3*, HTML6.es](https://www.html6.es/)
+
+
+ #<h1 align="center">INSTALACIÓN DE MySQL</h1>
+
+#Lo primero que hicimos fue actualizar la Maquina Virtual con el siguiente comando:
+
+#```
+#sudo apt update & sudo apt full-upgrade -y
+#```
+#>[!TIP]
+#> Se utiliza el -y para que el ordenador sepa que todas las preguntas que nos haga la respuesta sera si. El & lo utilizamos para que dos comandos se ejecuten mediante una sola linea. 
+
+#![image](https://github.com/user-attachments/assets/9b357d59-449e-4188-9ca8-f662d848d1f7)
+
+#Cuando la actualización termine procederemos a instalar el servicio de MySQL mediante el comdando: 
+#```
+#sudo apt install mysql-server -y
+#```
