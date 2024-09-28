@@ -8,7 +8,7 @@ contrasena varchar(255) not null
 create table mensajes (
 id_mensaje int auto_increment primary key, 
 descripción text, 
-matricula int, 
+matricula varchar(15) not null, 
 fecha_registro timestamp default current_timestamp);
 create table vehiculos (
 matricula varchar(10) primary key,
