@@ -3,7 +3,7 @@ Como puede haber ciertos errores y defectos al probar el servidor hemos decidido
 #!/bin/bash
 
 # Variables
-MYSQL_USER="cahce3815"
+MYSQL_USER="cache3815"
 MYSQL_PASSWORD="z1fVrI&ZVfyonsZ"
 
 # Comando SQL para crear la base de datos
