@@ -18,7 +18,7 @@ CREATE DATABASE IF NOT EXISTS proyecto;
 mysql -u $MYSQL_USER -p$MYSQL_PASSWORD -e "$SQL_COMMANDS"
 
 echo "Base de datos 'Proyecto' creada exitosamente."
-
+z1fVrI&ZVfyonsZ
 ```
 
 Despues debemos concederle los permisos de ejecucción 
