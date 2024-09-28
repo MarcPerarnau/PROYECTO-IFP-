@@ -1,6 +1,5 @@
 ```
 create table usuarios (
-id_usuario int auto_increment,
 nombre_usuario varchar(50) not null,
 email varchar(100) primary key unique,
 telefono varchar(15) not null,
@@ -12,7 +11,6 @@ descripción text,
 matricula int, 
 fecha_registro timestamp default current_timestamp);
 create table vehiculos (
-id_vehiculo int auto_increment ,
 matricula varchar(10) primary key,
 marca varchar(10) not null,
 modelo varchar(30) not null,
