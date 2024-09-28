@@ -3,21 +3,19 @@ Como puede haber ciertos errores y defectos al probar el servidor hemos decidido
 #!/bin/bash
 
 # Variables
-MYSQL_USER="cache3815"       
-
-# Solicitar la contraseña
-read -sp "Introduce la contraseña de MySQL: " MYSQL_PASSWORD
-echo
+MYSQL_USER="cahce3815"
+MYSQL_PASSWORD="z1fVrI&ZVfyonsZ"
 
 # Comando SQL para crear la base de datos
 SQL_COMMANDS="
-CREATE DATABASE IF NOT EXISTS proyecto;
+CREATE DATABASE IF NOT EXISTS Proyecto;
 "
 
 # Ejecutar comando SQL
 mysql -u $MYSQL_USER -p$MYSQL_PASSWORD -e "$SQL_COMMANDS"
 
 echo "Base de datos 'Proyecto' creada exitosamente."
+
 ```
 
 Despues debemos concederle los permisos de ejecucción 
