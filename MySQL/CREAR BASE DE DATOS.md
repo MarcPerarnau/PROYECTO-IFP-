@@ -23,9 +23,9 @@ echo "Base de datos 'Proyecto' creada exitosamente."
 
 Despues debemos concederle los permisos de ejecucción 
 ```
-chmod +x crear-BBDD.sh
+chmod +x .crear-bd.sh
 ```
 Y ejecutamos escript
 ```
-./crear_db_proyecto.sh
+./.crear-bd.sh
 ```
