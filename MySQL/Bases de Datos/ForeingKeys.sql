@@ -1,0 +1,2 @@
+ALTER TABLE vehiculos ADD constraint FK_usuari_vehiculos FOREIGN KEY (email) REFERENCES usuaris(email);
+ALTER TABLE mensajes ADD constraint FK_vehiculo_mensaje FOREIGN KEY (matricula) REFERENCES vehiculos(matricula);
