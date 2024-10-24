@@ -45,6 +45,11 @@ La arquitectura será cliente-servidor, de manera que el cliente es el que solic
 - **Cliente**: Parte del frontend, esta es la interfaz que verán los usuarios y con la que interactuarán. Se trabaja con HTML, CSS, JavaScript.
 - **Servidor**: Parte del backend, esta parte procesa lo que el cliente solicita, y se comunica con la base de datos para obtener la información. Se trabaja con PostgreSQL y se envían correos mediante Postfix.
 
+<h2 align="center">FUNCIONALIDADES DE LA WEB</h2>
+- **Registro de usuarios y vehículos**
+
+
+
 <h2 align="center">REFERENCIAS (bibliografía y webgrafía)</h2>
 
 - [Mark Drake, Mayo 19 de 2020, *Como instalar y utilizar PostgreSQL en Ubuntu 20.04*, DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04-es)
