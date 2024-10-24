@@ -79,11 +79,13 @@ La arquitectura será cliente-servidor, de manera que el cliente es el que solic
   - Conectar la plataforma con la base de datos para el registro de los usuarios y vehículos.
 
 - **Planificación del proyecto**
+
 ![image](https://github.com/user-attachments/assets/50f7b046-75d7-4a63-ba6c-45fcf82daf43)
 
 ![image](https://github.com/user-attachments/assets/fa75a8c6-b9fa-422c-95ff-a22898a93870)
 
 - **Diagrama de base de datos (puede ser relacional o E-R)**
+  
 ![image](https://github.com/user-attachments/assets/dce5c5fb-4982-4c33-9799-59dadc67438c)
 
 
@@ -99,6 +101,7 @@ Todas las relaciones son 1:N. Estas relaciones las obtenemos de las siguientes c
 
 
 La base de datos se crea de la siguiente manera:
+
 ![image](https://github.com/user-attachments/assets/9239d914-7cb7-4888-a5aa-2b21b0542edd)
 
 ![image](https://github.com/user-attachments/assets/428311fd-ce7f-49ef-aa50-8d1e638a0470)
