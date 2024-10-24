@@ -1,7 +1,7 @@
 <h1 align="center">
 A0 - Documento briefing: presentación del proyecto
 </h1>
-Andrea Sandu y Marc Liang Perarnau
+Andrea Sandu y Marc Liang Perarnau.
 <h2 align="center">Instrucciones de la actividad</h2>
 <p>
 El briefing de un proyecto es una breve descripción de los elementos clave del mismo. Considéralo como un resumen rápido para los participantes del proyecto y los colaboradores. Tu briefing debe comunicar los requisitos del proyecto, sin ahogar a los participantes con demasiados detalles, debe explicar la raíz del proyecto de forma sencilla y concisa.
