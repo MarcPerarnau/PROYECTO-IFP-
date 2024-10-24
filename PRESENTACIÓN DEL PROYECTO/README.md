@@ -10,15 +10,23 @@ Para ello elabora un documento y entrégalo en pdf con los siguientes apartados 
 
 <h2 align="center">EXPLICACIÓN DE LA WEB</h2>
 
-La web consistirá en una plataforma para que los dueños de los vehículos puedan recibir notificaciones sobre si su coche está mal aparcado, bloquea el paso, o si ha sufrido algún daño a causa de un accidente.
+Nuestro proyecto está diseñado con el fin de que los propietarios de los coches puedan ser notificados de manera rápida cuando hay problemas, como por ejemplo, cuando bloquea el paso, está mal estacionado o se ha producido algún accidente. 
+Los usuarios se podrán registrar dentro de la página web y asociar su coche introduciendo datos como la matrícula, marca, modelo, etc.
 
-Los usuarios propietarios podrán registrarse y asociar su coche mediante su matrícula y otros datos que se soliciten, de este modo, permitirá a las personas de la vía buscar la matrícula y notificar al dueño sobre algún incidente, a través de un correo electrónico o SMS.
 
-Con esta plataforma se facilitará la comunicación rápida ante cualquier situación relacionada con el vehículo.
+Con lo anterior conseguimos que cualquier persona que pase por la calle y vea algún coche con problemas, podrá buscar la matrícula en la página web y enviar un mensaje al propietario mediante el correo electrónico o SMS. El dueño al ser notificado, podrá actuar rápidamente antes de que la situación se agrave.
+
+
+La plataforma consistirá en mejorar la convivencia de las personas en las calles, resolviendo cualquier inquietud rápidamente. Su interfaz es sencilla e intuitiva, permitiendo que cualquier rango de edad sepa interactuar con ella sin problema. 
+
 
 <h2 align="center">OBJETIVO QUE SE PERSIGUE (Temática)</h2>
 
-El objetivo principal es aprovechar la tecnología para mejorar la vida cotidiana, de manera que proporcionamos una solución ágil para los problemas con vehículos. Queremos facilitar la comunicación en la vía pública, ayudando a los dueños a estar informados cuando su coche causa molestias o sufre daños. Es un aviso que llega rápido e informa al propietario para actuar rápidamente.
+El principal objetivo de nuestro proyecto es aprovechar nuestros conocimientos tecnológicos e informáticos para mejorar la vida urbana, enfocándonos en la resolución de problemas relacionados con los vehículos de nuestros propietarios registrados en la plataforma. 
+
+
+Buscamos simplificar la comunicación, haciendo que las personas en el espacio público usen sus dispositivos móviles para notificar de manera rápida una situación importante. Es un mensaje que se tarda menos de un minuto en escribir y en resolver conflictos que pueden afectar a más personas, asegurando que a la vez el propietario sea informado y pueda actuar ante lo ocurrido.
+
 
 <h2 align="center">ORGANIZACIÓN Y ROLES DEL EQUIPO</h2>
 
@@ -82,7 +90,10 @@ La arquitectura será cliente-servidor, de manera que el cliente es el que solic
 
 ![image](https://github.com/user-attachments/assets/50f7b046-75d7-4a63-ba6c-45fcf82daf43)
 
+
+
 ![image](https://github.com/user-attachments/assets/fa75a8c6-b9fa-422c-95ff-a22898a93870)
+
 
 - **Diagrama de base de datos (puede ser relacional o E-R)**
   
@@ -90,7 +101,7 @@ La arquitectura será cliente-servidor, de manera que el cliente es el que solic
 
 
 Como se puede observar en la imagen, disponemos de tres tablas dentro de la base de datos de CarConnect. 
-  - los **usuarios** contienen información como el nombre, apellidos, email, teléfono, contraseña y foto del usuario.
+  - Los **usuarios** contienen información como el nombre, apellidos, email, teléfono, contraseña y foto del usuario.
   - Los **vehículos** contienen información como la matrícula, la marca, el modelo, imagen de vehículo y la fecha de       registro.
   - Los **mensajes** contienen información como el texto y la fecha de entrega.
 
