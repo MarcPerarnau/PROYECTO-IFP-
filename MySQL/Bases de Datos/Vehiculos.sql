@@ -5,5 +5,5 @@ CREATE Table if not exists vehiculos(
     color VARCHAR(10) NOT NULL,
     fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     correo VARCHAR(100) NOT NULL, 
-    img  VARCHAR(100) NOT NULL
+    img  VARCHAR(100)
 );
