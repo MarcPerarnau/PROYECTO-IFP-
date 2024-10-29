@@ -1,4 +1,4 @@
-create Table if not exists usuaris(
+create Table if not exists usuarios(
     email VARCHAR(100) PRIMARY KEY,
     nombre VARCHAR(50) NOT NULL,
     apellido1  VARCHAR(100) NOT NULL,
