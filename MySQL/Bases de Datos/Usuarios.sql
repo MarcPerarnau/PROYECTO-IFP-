@@ -6,5 +6,5 @@ create Table if not exists usuaris(
     telefono VARCHAR(10) NOT NULL,
     contrasena VARCHAR(27) NOT NULL,
     fecha timestamp default current_timestamp,
-    img  VARCHAR(100) NOT NULL
+    img  VARCHAR(100)
 );
