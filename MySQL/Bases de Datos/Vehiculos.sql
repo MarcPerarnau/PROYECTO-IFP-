@@ -1,5 +1,5 @@
 CREATE Table if not exists vehiculos(
-    matricula VARCHAR(10) PRIMARY KEY,
+    matricula VARCHAR(70) PRIMARY KEY,
     marca VARCHAR(20) NOT NULL,
     modelo VARCHAR(20) NOT NULL,
     color VARCHAR(10) NOT NULL,
