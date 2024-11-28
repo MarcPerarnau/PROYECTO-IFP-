@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración</title>
+    <link rel="stylesheet" href="CSS/INDEX/estilos.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Admin Panel</h2>
+        </div>
+        <button class="logout-btn" onclick="logout()">Cerrar Sesión</button>
+        <ul class="sidebar-menu">
+            <li><a href="#" onclick="showContent('dashboard')">Dashboard</a></li>
+            <li><a href="#" onclick="showContent('users')">Usuarios</a></li>
+            <li><a href="#" onclick="showContent('settings')">Configuración</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div id="dashboard" class="content active">
+            <h1>Bienvenido al Panel</h1>
+            <p>Vista general de tu panel de administración.</p>
+        </div>
+        <div id="users" class="content">
+            <h1>Gestión de Usuarios</h1>
+            <p>Aquí puedes administrar los usuarios.</p>
+        </div>
+        <div id="settings" class="content">
+            <h1>Configuración</h1>
+            <p>Ajusta la configuración de tu panel.</p>
+        </div>
+    </div>
+
+    <script src="JS/INDEX/index.js"></script>
+</body>
+</html>
